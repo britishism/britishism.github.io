@@ -1,0 +1,89 @@
+body {
+  background-color: #222;
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #fff
+}
+
+.inline {
+  display: inline
+}
+
+.inline .inline-block {
+  display: inline-block
+}
+
+.center {
+  text-align: center
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif
+}
+
+dl {
+  margin: 1em;
+  font-size: 1.3em
+}
+
+dl dd {
+  font-weight: 700;
+  font-size: 1em
+}
+
+dl dt {
+  padding-left: 4em
+}
+
+.example {
+  font-family: Tahoma, Arial, sans-serif
+}
+
+.example .example-content {
+  font-size: .8em;
+  font-style: italic
+}
+
+dd.adj::before,
+dd.adv::before,
+dd.n::before,
+dd.v::before {
+  font-size: .83em;
+  font-style: italic
+}
+
+.example .example-content::before {
+  content: open-quote
+}
+
+.example .example-content::after {
+  content: close-quote
+}
+
+footer {
+  font-family: monospace
+}
+
+a {
+  color: #0ff;
+  font-style: italic;
+  text-decoration: none
+}
+
+dd.n::before {
+  content: "(n) "
+}
+
+dd.v::before {
+  content: "(v) "
+}
+
+dd.adj::before {
+  content: "(adj.) "
+}
+
+dd.adv::before {
+  content: "(adv.) "
+}
