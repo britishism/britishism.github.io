@@ -28,12 +28,12 @@ dl {
   font-size: 1.3em
 }
 
-dl dd {
+dl dt {
   font-weight: 700;
   font-size: 1em
 }
 
-dl dt {
+dl dd {
   padding-left: 4em
 }
 
@@ -46,10 +46,10 @@ dl dt {
   font-style: italic
 }
 
-dd.adj::before,
-dd.adv::before,
-dd.n::before,
-dd.v::before {
+dt.adj::before,
+dt.adv::before,
+dt.n::before,
+dt.v::before {
   font-size: .83em;
   font-style: italic
 }
@@ -72,18 +72,18 @@ a {
   text-decoration: none
 }
 
-dd.n::before {
+dt.n::before {
   content: "(n) "
 }
 
-dd.v::before {
+dt.v::before {
   content: "(v) "
 }
 
-dd.adj::before {
+dt.adj::before {
   content: "(adj.) "
 }
 
-dd.adv::before {
+dt.adv::before {
   content: "(adv.) "
 }
