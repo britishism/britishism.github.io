@@ -1,2 +1,4 @@
 # britishism.github.io
-Britishism
+Britishism.
+
+Read it in <https://britishism.github.io>!
